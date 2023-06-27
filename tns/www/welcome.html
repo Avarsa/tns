@@ -1,0 +1,25 @@
+
+{%  extends "templates/web.html" %}
+
+{% block page_content %}
+<body>
+   
+    <div class="container">
+      <div class="row justify-content-center vh-100">
+       
+        <div class="col-md-6 text-center">
+          <!--<img src="{logo_path}" class="mb-4" alt="Logo">-->
+               <div class="display-4 text-primary text-center">TNS</div>
+         
+          <h1 class="display-5">Welcome to The Narrative Scribe</h1>
+          <p class="p-5">Evoke change and growth in your life's journey with AI</p>
+          <div class="d-grid gap-2">
+            <a href="{signup_link}" class="btn btn-primary">Sign Up</a>
+            <a href="{login_link}" class="btn btn-secondary">Log In</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  {% endblock %}
+  
